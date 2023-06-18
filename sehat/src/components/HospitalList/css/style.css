@@ -1,0 +1,67 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+.jumbotron {
+  padding-top: 2%;
+  padding-bottom: 8%;
+  background-image: url("../images/hospital-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  /* margin-top: 50px; */
+}
+.jumbotron-container {
+  padding: 0 2%;
+}
+
+#searchSection {
+  background-color: #b2ced287;
+  padding-top: 2%;
+  text-align: center;
+  color: #111;
+}
+.inputSection {
+  margin: 3%;
+}
+
+.j-text {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.form {
+  width: 400px;
+  margin: auto;
+}
+.input-group {
+  width: 550px;
+  margin-bottom: 3%;
+}
+.input-group-text {
+  background-color: rgb(122, 188, 231);
+}
+
+#form-btn {
+  background-color: rgb(122, 188, 231);
+  /* position: relative; */
+  /* left: 8px; */
+  border: 1px solid powderblue;
+  /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+}
+#form-btn:hover {
+  background-color: rgb(0, 176, 146);
+}
+
+.list-section {
+  text-align: center;
+}
+
+.details-btn {
+  color: #111;
+}
